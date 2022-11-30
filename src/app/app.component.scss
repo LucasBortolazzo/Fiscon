@@ -1,0 +1,36 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+
+    .title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    form {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        box-shadow: 0px 1px 17px 0px #aaa;
+
+        .mat-mdc-form-field {
+            width: 350px !important;
+        }
+
+        .actions {
+            display: flex;
+            gap: 1rem;
+        }
+    }
+
+    .tabela {
+        padding: 1rem;
+        width: 100%;
+        box-shadow: 0px 1px 17px 0px #aaa;
+    }
+}
